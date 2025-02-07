@@ -1,0 +1,6 @@
+{
+    "env": {
+        "MONGO_URL":"mongodb+srv://prakalpjha888:kNjNlSsjp3Py8Ukq@cluster0.tqvrc3n.mongodb.net/PayWallet",
+        "JWT_SECRET":"pranav008"
+    }
+  }
