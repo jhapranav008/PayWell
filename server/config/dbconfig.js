@@ -1,9 +1,6 @@
 const mongoose = require("mongoose")
 
-console.log(process.env.MONGO_URL)
-console.log(process.env.JWT_SECRET)
-
-const connection = "mongodb+srv://prakalpjha888:kNjNlSsjp3Py8Ukq@cluster0.tqvrc3n.mongodb.net/PayWallet"
+const connection = process.env.MONGO_URL
 
 mongoose.connect(connection)
 
